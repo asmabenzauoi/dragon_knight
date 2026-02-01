@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://ccjpkhgn7lpok"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bswci"]
+radius = 45.0
+height = 206.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=211862800]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1377254466]
+position = Vector2(594, 402)
+scale = Vector2(0.2, 0.2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1889718869]
+position = Vector2(591, 408)
+scale = Vector2(0.99999994, 0.99999994)
+shape = SubResource("CapsuleShape2D_bswci")
